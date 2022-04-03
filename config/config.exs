@@ -12,7 +12,7 @@ config :rockelivery,
 
 config :rockelivery, Rockelivery.Repo,
   migration_primary_key: [type: :binary_id],
-  migration_primary_key: [type: :binary_id]
+  migration_foreign_key: [type: :binary_id]
 
 # Configures the endpoint
 config :rockelivery, RockeliveryWeb.Endpoint,
